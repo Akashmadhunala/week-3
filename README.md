@@ -42,11 +42,10 @@ If you have JUnit installed, run the tests by executing the following command:
 
 ## Example output:
 
---java
+
 Cart items: [Laptop, Mouse, Keyboard, Mouse] <br>
 Cart items after removing Laptop: [Mouse, Keyboard, Mouse]<br>
 Item quantities: {Mouse=2, Keyboard=1}
---
 
 ## Requirements
 
