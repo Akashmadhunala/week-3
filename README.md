@@ -14,9 +14,9 @@ This Java application demonstrates the usage of different Java collections such 
 
 ### Collections Used:
 
-- List<String>`: Stores all items added to the cart, including duplicates.
-- Set<String>`: Ensures that each item in the cart is unique.
-- Map<String, Integer>`: Tracks the quantity of each item in the cart.
+- List<String> : Stores all items added to the cart, including duplicates.
+- Set<String> : Ensures that each item in the cart is unique.
+- Map<String, Integer>: Tracks the quantity of each item in the cart.
 
 ## Features
 
@@ -43,8 +43,8 @@ If you have JUnit installed, run the tests by executing the following command:
 ## Example output:
 
 --java
-Cart items: [Laptop, Mouse, Keyboard, Mouse]
-Cart items after removing Laptop: [Mouse, Keyboard, Mouse]
+Cart items: [Laptop, Mouse, Keyboard, Mouse] <br>
+Cart items after removing Laptop: [Mouse, Keyboard, Mouse]<br>
 Item quantities: {Mouse=2, Keyboard=1}
 --
 
