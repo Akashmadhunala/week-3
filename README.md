@@ -34,14 +34,14 @@ This Java application demonstrates the usage of different Java collections such 
 
 ### To run the tests:
 
-you don't need to run ShoppingCart.java directly. You only need to run App.java because it acts as the main entry point of the application.
--Here's how the workflow goes:
-App.java contains the main method, which runs the entire program. It interacts with the ShoppingCart.java class by calling its methods to add, remove, and display items.
+you don't need to run ShoppingCart.java directly. You only need to run App.java because it acts as the main entry point of the application.<br>
+-Here's how the workflow goes:<br>
+App.java contains the main method, which runs the entire program. It interacts with the ShoppingCart.java class by calling its methods to add, remove, and display items.<br>
 ShoppingCart.java is a class that contains the logic for adding, removing, and managing the shopping cart items. It's used internally by App.java.
-So, when you run App.java, it will automatically call the relevant methods from ShoppingCart.java.
+So, when you run App.java, it will automatically call the relevant methods from ShoppingCart.java.<br>
 
-If you haven't installed JUnit 5, you can add it using Maven or include JUnit JAR files in your project.
-If you have JUnit installed, run the tests by executing the following command:
+If you haven't installed JUnit 5, you can add it using Maven or include JUnit JAR files in your project.<br>
+If you have JUnit installed, run the tests by executing the following command:<br>
 
 -bash
   mvn test
