@@ -22,7 +22,8 @@ public class ShoppingCart {
     }
 
     // Removes an item from the cart
-    public void removeItem(String item) {
+    // Returns true if the item was successfully removed, false if not
+    public boolean removeItem(String item) {
         if (uniqueItems.contains(item)) {
             cartItems.remove(item);
             int currentQuantity = itemQuantities.get(item);
@@ -32,7 +33,9 @@ public class ShoppingCart {
                 uniqueItems.remove(item);
                 itemQuantities.remove(item);
             }
+            return true;
         }
+        return false;
     }
 
     // Returns the list of items in the cart
@@ -43,5 +46,10 @@ public class ShoppingCart {
     // Returns the quantity of each unique item in the cart
     public Map<String, Integer> getItemQuantities() {
         return itemQuantities;
+    }
+
+    // Check if the cart is empty
+    public boolean isCartEmpty() {
+        return cartItems.isEmpty();
     }
 }
